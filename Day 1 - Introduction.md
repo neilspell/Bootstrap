@@ -90,4 +90,89 @@ Next we are going to create columns of text across our webpage.
 
 Bootstrap uses 12 columns across the page, so to make 3 equal columns, we will make each section 4 columns wide.
 
-You can find more information on Bootstrap Grid System here [Bootstrap Grid System](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp).
+- Please take your time typing this up.
+- Try to use the <kbd>tab</kbd> button to format your code.
+- Remember to add ``comments`` to explain what your code does.
+
+````html
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Column 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+````
+
+You can find more information on Bootstrap Grid System [here](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp).
+
+
+### Task 4 - More Containers
+What if we want to inlcude another heading or container in the middle of our page? 
+We can use the code shown below, notice how the **font** and **background colour** are changed inside the first `<div>` tag.
+
+````html
+  <div class="container p-5 my-5 border">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a border and some extra padding and margins.</p>
+  </div>
+
+  <div class="container p-5 my-5 bg-dark text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a dark background color and a white text, and some extra padding and margins.</p>
+  </div>
+
+  <div class="container p-5 my-5 bg-primary text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+  </div>
+````
+Again, add ``comments`` to explain what your code does.
+
+### Task 5 - Headings and Secondary Text 
+If you can think back to last year, `<h1>` tags made the largest headings, while `<h6>` tags made the smallest. 
+Here's an example showing how we can add headings and also add smaller secondary text to our webpage.
+
+````html
+  <div class="container mt-3">
+    <h1>Smaller, Secondary Text</h1>
+    <p>The small element (and the .small class) is used to create a smaller, secondary text in any heading:</p>
+    <h1>h1 heading <small>secondary text</small></h1>
+    <h2>h2 heading <small>secondary text</small></h2>
+    <h3>h3 heading <small>secondary text</small></h3>
+    <h4>h4 heading <small>secondary text</small></h4>
+    <h5>h5 heading <small>secondary text</small></h5>
+    <h6>h6 heading <small>secondary text</small></h6>
+  </div>
+````
+
+### Task 6 - Highlight Text
+What if we wanted to highlight a piece of text within our webpage?
+````html
+<div class="container mt-3">
+    <h1>Highlight Text</h1>
+    <p>Use the mark element (or the .mark class) to <mark>highlight</mark> text.</p>
+  </div>
+````
+
+### Task 7 - Keyboard Inputs
+Perhaps you wanted to create a gaming webpage showing which controls to use while playing the game, or simply give some keyboard commands, the following code could be useful.
+````html
+  <div class="container mt-3">
+    <h1>Keyboard Inputs</h1>
+    <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+    <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+  </div>
+````
