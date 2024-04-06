@@ -21,6 +21,7 @@ Discuss this with yoru classmates for a moment and see what you can remember.
   <html></html>
   <body></body>
   <head></head>
+  <!DOCTYPE html>
   <title></title>
   
 ````
@@ -202,14 +203,14 @@ Let's experiment again with background and text colours.
 We did a lot of work last year with `<table>` tags. 
 
 Remember what we learned last year
-- table rows `<tr>`go left to right.
-- table columns (headings) `<th>` go top to bottom.
+- Table rows `<tr>` go left to right.
+- Table columns (headings) `<th>` go top to bottom.
 
-Also, while we type up our code from top to bottom, it appears in the table rows _left -> right._
+Also, while we type up our code from top to bottom, it appears in the table rows **_left -> right._**
 
 Take a look at the following examples below.
 
-#### Hover
+#### Hover Effect 
 ````html
 <div class="container mt-3">
     <h2>Hover Rows</h2>
@@ -243,7 +244,7 @@ Take a look at the following examples below.
   </div>
 ````
 
-#### Dark
+#### Dark Effect
 ````html
  <div class="container mt-3">
     <h2>Hoverable Dark Table</h2>
@@ -277,7 +278,23 @@ Take a look at the following examples below.
   </div>
 ````
 
-### Buttons - 
-Bootstrap includes several predefined button styles, each serving its own semantic purpose
+### Task 10 - Buttons 
+Bootstrap includes several predefined button styles, each serving its own semantic purpose.
 
-Semantics is ...
+_(Semantics means the meaning and interpretation of words, signs, and sentence structure.)_
+
+````html
+<div class="container mt-3">
+    <h2>Button Outline</h2>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button>
+    <button type="button" class="btn btn-outline-light text-dark">Light</button>
+  </div>
+````
+
+
