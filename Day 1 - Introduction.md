@@ -297,4 +297,8 @@ _(Semantics means the meaning and interpretation of words, signs, and sentence s
   </div>
 ````
 
+### Extra Credit ✨
+If you wish to do some more experimentation before next week's class, feel free to check out the following pages for more information.
 
+1. [Bootstrap Guide](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+2. [w3schools Bootstrap](https://www.w3schools.com/bootstrap4/default.asp)
