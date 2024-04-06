@@ -5,7 +5,8 @@
 Today we are going to explore and learn how to create a bunch of different features for our webpage using Bootstrap.
 
 ## Getting started 👨🏽‍💻
-First I want you to click into `Replit` and open the **Introduction to Bootstrap** file.
+1. I want you to click into [Trinket](https://trinket.io/) and set up an account.
+2. Now click on the blue button, select **HTML** and create a file called **Introduction to Bootstrap**.
 
 Now we need to add our boiler plate code shown below.
 
@@ -50,7 +51,7 @@ Next, you need to add this line of code just above your closing body tag `</body
 Working together with your classmates, I want you to try to complete the following challenges. Where possible, type up the code yourself, don't just copy and paste it into your editor.
 
 ### 💡Note: 
-You must include `comments` with your code, explaining what each section `<div>` does.
+You must include _**comments**_ with your code, explaining what each section `<div>` does.
 
   - Can you remember how to add comments into `HMTL`?
 
@@ -80,11 +81,11 @@ Now we are going to create a general information section at the top of our webpa
 ````
 I've given you a little hint in this piece of code as to what your next assignment will be...can you figure it out? 🛰️
 
-### Task 3 - Adding Columns of Text
+### Task 3 - Adding Columns of Text 🏛️
 Next we are going to create columns of text across our webpage. 
 
-- Bootstrap's grid system allows up to 12 columns across the page.
-- If you do not want to use all 12 column individually, you can group the columns together to create wider columns:
+- Bootstrap's grid system allows up to **12 columns** across the page.
+- If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:
 ![image](https://github.com/ross-bish/Bootstrap/assets/83789503/7dab612e-d402-4696-ae0e-0285b8c8e077)
 
 
@@ -92,7 +93,7 @@ Bootstrap uses 12 columns across the page, so to make 3 equal columns, we will m
 
 - Please take your time typing this up.
 - Try to use the <kbd>tab</kbd> button to format your code.
-- Remember to add ``comments`` to explain what your code does.
+- Remember to add _**comments**_ to explain what your code does.
 
 ````html
   <div class="container mt-5">
@@ -139,7 +140,7 @@ We can use the code shown below, notice how the **font** and **background colour
     <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
   </div>
 ````
-Again, add ``comments`` to explain what your code does.
+Again, add _**comments**_ to explain what your code does.
 
 ### Task 5 - Headings and Secondary Text 
 If you can think back to last year, `<h1>` tags made the largest headings, while `<h6>` tags made the smallest. 
@@ -167,7 +168,7 @@ What if we wanted to highlight a piece of text within our webpage?
   </div>
 ````
 
-### Task 7 - Keyboard Inputs
+### Task 7 - Keyboard Inputs ⌨️
 Perhaps you wanted to create a gaming webpage showing which controls to use while playing the game, or simply give some keyboard commands, the following code could be useful.
 ````html
   <div class="container mt-3">
@@ -176,3 +177,107 @@ Perhaps you wanted to create a gaming webpage showing which controls to use whil
     <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
   </div>
 ````
+Again, add _**comments**_ to explain what your code does.
+
+
+### Task 8 - Set a background colour with contrasting foreground colour.🌈
+Let's experiment again with background and text colours.
+
+````html
+<div class="container mt-3">
+    <h2>Background Color with Contrasting Text Color</h2>
+    <p class="text-bg-primary">This text is important.</p>
+    <p class="text-bg-success">This text indicates success.</p>
+    <p class="text-bg-info">This text represents some information.</p>
+    <p class="text-bg-warning">This text represents a warning.</p>
+    <p class="text-bg-danger">This text represents danger.</p>
+    <p class="text-bg-secondary">Secondary background color.</p>
+    <p class="text-bg-dark">Dark grey background color.</p>
+    <p class="text-bg-light">Light grey background color.</p>
+  </div>
+````
+
+
+### Task 9 - Tables 
+We did a lot of work last year with `<table>` tags. 
+
+Remember what we learned last year
+- table rows `<tr>`go left to right.
+- table columns (headings) `<th>` go top to bottom.
+
+Also, while we type up our code from top to bottom, it appears in the table rows _left -> right._
+
+Take a look at the following examples below.
+
+#### Hover
+````html
+<div class="container mt-3">
+    <h2>Hover Rows</h2>
+    <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ada</td>
+          <td>Lovelace</td>
+          <td>ada@example.com</td>
+        </tr>
+        <tr>
+          <td>Alan</td>
+          <td>Turing</td>
+          <td>alan@example.com</td>
+        </tr>
+        <tr>
+          <td>Tim</td>
+          <td>Berners-Lee</td>
+          <td>tim@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+````
+
+#### Dark
+````html
+ <div class="container mt-3">
+    <h2>Hoverable Dark Table</h2>
+    <p>The .table-hover class adds a hover effect (grey background color) on table rows:</p>
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+     <tbody>
+        <tr>
+          <td>Ada</td>
+          <td>Lovelace</td>
+          <td>ada@example.com</td>
+        </tr>
+        <tr>
+          <td>Alan</td>
+          <td>Turing</td>
+          <td>alan@example.com</td>
+        </tr>
+        <tr>
+          <td>Tim</td>
+          <td>Berners-Lee</td>
+          <td>tim@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+````
+
+### Buttons - 
+Bootstrap includes several predefined button styles, each serving its own semantic purpose
+
+Semantics is ...
