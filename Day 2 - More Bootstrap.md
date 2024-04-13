@@ -267,6 +267,7 @@ Add the following code just beneath your **Jumbotron** `<div>` at the top of you
 
 ### Task 8 - Photo Carousel 📸
 A Photo Carousel allows the user to view various photos related to one another, this can be on a _click-command_ or _automated_.
+The following example shows how to create a basic carousel with indicators and controls.
 
 1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.😎
 
