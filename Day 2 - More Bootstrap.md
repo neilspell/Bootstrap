@@ -162,7 +162,7 @@ Now using the sample code shown below, create some more alert boxes, can you spo
 
 
 ### Task 4 - Progress Bar (with label)
-If we created a website with multiple pages, to inform the User of how far the have navigated, we could use the following feature.
+If we created a website with multiple pages, to inform the User of how far they have navigated, we could use the following feature.
 
 ````html
   <div class="container mt-3">
@@ -173,10 +173,10 @@ If we created a website with multiple pages, to inform the User of how far the h
   </div>
 ````
 
-Experiment with teh code and see if you can create different progress bars with varying degrees of _progress_.
+Experiment with the code and see if you can create different progress bars with varying degrees of _progress_.
 
 
-#### Task 5 - Pagination
+### Task 5 - Pagination
 To accompany this progress bar, perhaps we want to include page numbers on our website, this can be done using **pagination.**
 
 **Basic Pagination**
@@ -206,6 +206,24 @@ To accompany this progress bar, perhaps we want to include page numbers on our w
       <li class="page-item active"><a class="page-link" href="#">2</a></li>
       <li class="page-item"><a class="page-link" href="#">3</a></li>
       <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</div>
+````
+
+### Task 6 - Breadcrumbs
+Perhaps you'd prefer to leave a trail of the Users' navigation behind, rather than a page number. 
+
+In that case, we can use **breadcrumbs**.
+
+````html
+<div class="container mt-3">
+    <h2>Breadcrumbs</h2>
+    <p>The .breadcrumb class indicates the current page's location within a navigational hierarchy:</p>
+    <ul class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Photos</a></li>
+      <li class="breadcrumb-item"><a href="#">Summer 2017</a></li>
+      <li class="breadcrumb-item"><a href="#">Italy</a></li>
+      <li class="breadcrumb-item active">Rome</li>
     </ul>
 </div>
 ````
