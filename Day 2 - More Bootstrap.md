@@ -76,7 +76,7 @@ These can be used in your _ISS - Website_ to display information about current /
 </div>
 ````
 
-### Task 1 - Timeline Cards & Modal Windows
+### Task 2 - Timeline Cards & Modal Windows
 Type up the following code to create a timeline card, which could be used to display key dates or mission milestones that occurred onboard the ISS. 🛰️ 
 
 ````html
@@ -116,4 +116,46 @@ Let's add a litte more style to our cards using a **Modal Windows**.
     </div>
   </div>
 </div>
+````
+
+### Task 3 - Alerts
+Now let's see if we can add a little more interaction to our page using alert boxes.
+
+Type up the following code to create a **success** alert box.
+````html
+    <div class="container mt-3">
+    <h2>Alerts</h2>
+    <p>The button with class="btn-close" and data-bs-dismiss="alert" is used to close the alert box.</p>
+    
+    
+    <div class="alert alert-success alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Success!</strong> This alert box could indicate a successful or positive action.
+    </div> 
+````
+
+Now using the sample code shown below, create some more alert boxes, can you spot how the colour of the alerts changes??
+
+Info Alert
+````html
+    <div class="alert alert-info alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+    </div>
+````
+
+Warning Alert
+````html
+    <div class="alert alert-warning alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+    </div>
+````
+
+Danger Alert 
+````html
+    <div class="alert alert-danger alert-dismissible">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+    </div>
 ````
