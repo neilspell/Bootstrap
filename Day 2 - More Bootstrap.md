@@ -53,7 +53,7 @@ See if you can remember how to create a **Jumbotron Header** for the top of our 
 - Then in the `<p>` tags inlcude
 
 ````
-Today's code will help me to design my Internation Space Station webpage
+Today's code will help me to design my International Space Station webpage
 ````
 
 <details>
