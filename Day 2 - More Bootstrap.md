@@ -47,8 +47,30 @@ Working together with your classmates, I want you to try to complete the followi
 ### 💡Note: 
 You must include _**comments**_ with your code, explaining what each section `<div>` does.
 
+### Task 1 - Jumbotron
+See if you can remember how to create a **Jumbotron Header** for the top of our webpage.
+- Give it a title of 'Bootstrap Day 2'.
+- Then in the `<p>` tags inlcude
 
-### Task 1 - Bootstrap Cards
+````
+Today's code will help me to design my Internation Space Station webpage
+````
+
+<details>
+  <summary>👀Hint</summary>
+
+````html
+<!-- Header with Jumbotron -->
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1></h1>
+  <p></p>
+</div>
+
+````
+
+</details>
+
+### Task 2 - Bootstrap Cards
 Type up the following code to create Bootsrap Cards. 
 
 These can be used in your _ISS - Website_ to display information about current / past crew members. 
@@ -86,7 +108,7 @@ These can be used in your _ISS - Website_ to display information about current /
 </div>
 ````
 
-### Task 2 - Timeline Cards & Modal Windows
+### Task 3 - Timeline Cards & Modal Windows
 Type up the following code to create a timeline card, which could be used to display key dates or mission milestones that occurred onboard the ISS. 🛰️ 
 
 ````html
@@ -128,7 +150,7 @@ Let's add a little more style to our cards using a **Modal Windows**.
 </div>
 ````
 
-### Task 3 - Alerts
+### Task 4 - Alerts
 Now let's see if we can add a little more interaction to our page using alert boxes.
 
 Type up the following code to create a **Success** alert box.
@@ -171,7 +193,7 @@ Now using the sample code shown below, create some more alert boxes, can you spo
 ````
 
 
-### Task 4 - Progress Bar (with label)
+### Task 5 - Progress Bar (with label)
 If we created a website with multiple pages, to inform the user of how far they have navigated, we could use the following feature.
 
 ````html
@@ -186,7 +208,7 @@ If we created a website with multiple pages, to inform the user of how far they 
 👨🏽‍💻 Experiment with the code and see if you can create different progress bars with varying degrees of _progress_.
 
 
-### Task 5 - Pagination
+### Task 6 - Pagination
 To accompany this progress bar, perhaps we want to include page numbers on our website, this can be done using **pagination.**
 
 **Basic Pagination**
@@ -220,7 +242,7 @@ To accompany this progress bar, perhaps we want to include page numbers on our w
 </div>
 ````
 
-### Task 6 - Breadcrumbs
+### Task 7 - Breadcrumbs
 Perhaps you'd prefer to leave a trail of the users' navigation behind, rather than a page number. 
 
 In that case, we can use **breadcrumbs**.
@@ -238,7 +260,7 @@ In that case, we can use **breadcrumbs**.
 </div>
 ````
 
-### Task 7 - Navigation Bar
+### Task 8 - Navigation Bar
 Instead of using **_pagination_** or **_breadcrumbs_** (or perhaps in conjunction with one of them), we can add a **_Navigation Bar_** to the top of our webpage.
 
 Add the following code just beneath your **Jumbotron** `<div>` at the top of your code.
@@ -267,7 +289,7 @@ Add the following code just beneath your **Jumbotron** `<div>` at the top of you
 ````
 👨🏽‍💻 Experiment with some of the classes in the code to see if you can change the appearance, or add more _items_.
 
-### Task 8 - Photo Carousel 📸
+### Task 9 - Photo Carousel 📸
 A Photo Carousel allows the user to view various photos related to one another, this can be on a _click-command_ or _automated_.
 The following example shows how to create a basic carousel with indicators and controls.
 
