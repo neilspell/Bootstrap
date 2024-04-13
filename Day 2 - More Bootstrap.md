@@ -159,3 +159,53 @@ Now using the sample code shown below, create some more alert boxes, can you spo
       <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
     </div>
 ````
+
+
+### Task 4 - Progress Bar (with label)
+If we created a website with multiple pages, to inform the User of how far the have navigated, we could use the following feature.
+
+````html
+  <div class="container mt-3">
+    <h2>Progress Bar With Label</h2>
+    <div class="progress">
+      <div class="progress-bar" style="width:20%">20%</div>
+    </div>
+  </div>
+````
+
+Experiment with teh code and see if you can create different progress bars with varying degrees of _progress_.
+
+
+#### Task 5 - Pagination
+To accompany this progress bar, perhaps we want to include page numbers on our website, this can be done using **pagination.**
+
+**Basic Pagination**
+````html
+<div class="container mt-3">
+    <h2>Pagination</h2>
+    <p>To create a basic pagination, add the .pagination class to an ul element. Then add the .page-item to each li
+      element and a .page-link class to each link inside li:</p>
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</div>
+````
+
+**Pagination - Active State**
+````html
+<div class="container mt-3">
+    <h2>Pagination - Active State</h2>
+    <p>Add class .active to let the user know which page he/she is on:</p>
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+</div>
+````
