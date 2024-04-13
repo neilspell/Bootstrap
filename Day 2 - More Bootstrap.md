@@ -274,6 +274,9 @@ The following example shows how to create a basic carousel with indicators and c
 1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.😎
 
 ````html
+<h3>Carousel Example</h3>
+<p>The following example shows how to create a basic carousel with indicators and controls.</p>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -335,3 +338,11 @@ The following example shows how to create a basic carousel with indicators and c
 Now our Photo Carousel should take up ``70%`` of our screen. 
 
 👨🏽‍💻 Experiment with these values to see which setting you prefer.
+
+
+## Extra Credit ✨
+Read back over your code, and using _**comments**_, label & give a brief explanation of what the various sections of your code does.
+
+````html
+<!-- Comments are very important when programming -->
+````
