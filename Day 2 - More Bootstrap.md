@@ -39,4 +39,37 @@ You must include _**comments**_ with your code, explaining what each section `<d
 
 
 ### Task 1 - 
-Type up the following code to
+Type up the following code to create **Bootsrap Cards**. These can be used in your ISS - Website to display information about current / past crew members. 
+
+````html
+<!-- Crew Section with Bootstrap Cards -->
+<div class="container mt-5">
+  <h2>Current Crew Members</h2>
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="crew_member1.jpg" class="card-img-top" alt="Crew Member 1">
+        <div class="card-body">
+          <h5 class="card-title">Neil Armstrong </h5>
+          <p class="card-text">Mission Specialist</p>
+          <!-- Add more details as needed -->
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="crew_member1.jpg" class="card-img-top" alt="Crew Member 1">
+        <div class="card-body">
+          <h5 class="card-title">Buzz Aldrin </h5>
+          <p class="card-text">Mission Specialist</p>
+          <!-- Add more details as needed -->
+        </div>
+      </div>
+    </div>
+    <!-- Repeat the card structure for other crew members -->
+
+  </div>
+</div>
+````
