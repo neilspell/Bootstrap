@@ -1,6 +1,8 @@
-# Day 2 - More Bootstrap
-
+# Day 2 - More Bootstrap 
 ![image](https://github.com/ross-bish/Bootstrap/assets/83789503/ce5b5616-1e22-4f51-a2bc-d7eb701fab8c)
+
+![image](https://github.com/ross-bish/Bootstrap/assets/83789503/4634393c-bedf-448f-89ef-f19616c9d12d)
+
 
 Today we are going to explore some more features that Bootstrap offers us for web design.
 
