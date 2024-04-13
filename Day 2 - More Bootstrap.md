@@ -170,7 +170,7 @@ Now using the sample code shown below, create some more alert boxes, can you spo
 
 
 ### Task 4 - Progress Bar (with label)
-If we created a website with multiple pages, to inform the User of how far they have navigated, we could use the following feature.
+If we created a website with multiple pages, to inform the user of how far they have navigated, we could use the following feature.
 
 ````html
   <div class="container mt-3">
@@ -181,7 +181,7 @@ If we created a website with multiple pages, to inform the User of how far they 
   </div>
 ````
 
-Experiment with the code and see if you can create different progress bars with varying degrees of _progress_.
+👨🏽‍💻 Experiment with the code and see if you can create different progress bars with varying degrees of _progress_.
 
 
 ### Task 5 - Pagination
@@ -219,7 +219,7 @@ To accompany this progress bar, perhaps we want to include page numbers on our w
 ````
 
 ### Task 6 - Breadcrumbs
-Perhaps you'd prefer to leave a trail of the Users' navigation behind, rather than a page number. 
+Perhaps you'd prefer to leave a trail of the users' navigation behind, rather than a page number. 
 
 In that case, we can use **breadcrumbs**.
 
@@ -239,7 +239,7 @@ In that case, we can use **breadcrumbs**.
 ### Task 7 - Navigation Bar
 Instead of using **_pagination_** or **_breadcrumbs_** (or perhaps in conjunction with one of them), we can add a **_Navigation Bar_** to the top of our webpage.
 
-Add the following code just beneath your Jumbotron `<div>` at the top of your code.
+Add the following code just beneath your **Jumbotron** `<div>` at the top of your code.
 
 ````html
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -263,12 +263,12 @@ Add the following code just beneath your Jumbotron `<div>` at the top of your co
   </div>
 </nav>
 ````
-Experiment with some of the classes in the code to see if you can change the appearance, or add more _items_.
+👨🏽‍💻 Experiment with some of the classes in the code to see if you can change the appearance, or add more _items_.
 
 ### Task 8 - Photo Carousel 📸
-A Photo Carousel allows the user to view various photos related to one another, this can be on a click command or automated.
+A Photo Carousel allows the user to view various photos related to one another, this can be on a _click-command_ or _automated_.
 
-1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.
+1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.😎
 
 ````html
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -298,18 +298,19 @@ A Photo Carousel allows the user to view various photos related to one another, 
   </a>
 </div>
 ````
-2. You will now have to find 3 photographs and copy & paste their URLs into the `src="insert URL here"` code above.
+2. You will now have to find _**3 photographs**_ and copy & paste their URLs into the `src="insert URL here"` code above.
 
 - Work together with your classmates to see if you can get this feature to work.
 - Can you remember how we add photos to a webpage?
 
 3. Perhaps you have noticed that the **Photo Carousel** is the full width of our webpage.
 
-   This may be a feature you wish to keep, if not, we can add a little piece of `CSS`code inside our `<head>` tags and then add one final `<div>` just above our main Carousel code in the `<body>`.
+   This may be a feature you wish to keep, if not, we can add a little piece of `CSS` code inside our `<head>` tags and then add one final `<div>` just above our main Carousel code in the `<body>`.
 
    Add the following code inside your `<head>` tags.
 
-   ````html
+````html
+
    <style>
     /* Custom style for limiting carousel width */
     .custom-carousel-container {
@@ -317,7 +318,8 @@ A Photo Carousel allows the user to view various photos related to one another, 
       margin: 0 auto; /* Center the container */
     }
   </style>
-   ````
+
+````
 4. Now add this line of code at the top of the **Photo Carousel** `<div>`.
 
 ````html
@@ -327,4 +329,6 @@ A Photo Carousel allows the user to view various photos related to one another, 
 
 💡**Remember:** We then need to close this at the end of the code block using a `</div>` tag.
 
-Now our Photo Carousel should take up ``70%`` of our screen. Experiment with these values to see which setting you prefer.
+Now our Photo Carousel should take up ``70%`` of our screen. 
+
+👨🏽‍💻 Experiment with these values to see which setting you prefer.
