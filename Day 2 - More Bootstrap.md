@@ -17,17 +17,16 @@ To use Bootstrap, you include its `CSS` and `JavaScript` files in your HTML docu
 - This gives you access to all the pre-made styles and interactive features.
 
 ````html
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ISS Website</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISS Website</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 <!-- Include Bootstrap JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
 ````
 
 Next, you need to add this line of code just above your closing body tag `</body>`.
@@ -236,3 +235,33 @@ In that case, we can use **breadcrumbs**.
     </ul>
 </div>
 ````
+
+### Task 7 - Navigation Bar
+Instead of using **_pagination_** or **_breadcrumbs_** (or perhaps in conjunction with one of them), we can add a **_Navigation Bar_** to the top of our webpage.
+
+Add the following code just beneath your Jumbotron `<div>` at the top of your code.
+
+````html
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Space Mission</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Past Missions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Astro Pi</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+````
+Experiment with some of the classes in the code to see if you can change the appearance, or add more _items_.
+
