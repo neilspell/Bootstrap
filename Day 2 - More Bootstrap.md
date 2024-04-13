@@ -47,9 +47,9 @@ Working together with your classmates, I want you to try to complete the followi
 ### 💡Note: 
 You must include _**comments**_ with your code, explaining what each section `<div>` does.
 
-### Task 1 - Jumbotron
+### Task 1 - Jumbotron Header
 See if you can remember how to create a **Jumbotron Header** for the top of our webpage.
-- Give it a title of 'Bootstrap Day 2'.
+- Give it a title of _'Bootstrap Day 2'_.
 - Then in the `<p>` tags inlcude
 
 ````
