@@ -265,3 +265,41 @@ Add the following code just beneath your Jumbotron `<div>` at the top of your co
 ````
 Experiment with some of the classes in the code to see if you can change the appearance, or add more _items_.
 
+### Task 8 - Photo Carousel 📸
+A Photo Carousel allows the user to view various photos related to one another, this can be on a click command or automated.
+
+1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.
+
+````html
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="insert URL here" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="insert URL here" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="insert URL here" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+````
+2. You will now have to find 3 photographs and copy & paste their URLs into the `src="insert URL here"` code above.
+
+- Work together with your classmates to see if you can get this feature to work.
+- Can you remember how we add photos to a webpage?
+
