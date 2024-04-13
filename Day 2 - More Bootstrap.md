@@ -303,3 +303,28 @@ A Photo Carousel allows the user to view various photos related to one another, 
 - Work together with your classmates to see if you can get this feature to work.
 - Can you remember how we add photos to a webpage?
 
+3. Perhaps you have noticed that the **Photo Carousel** is the full width of our webpage.
+
+   This may be a feature you wish to keep, if not, we can add a little piece of `CSS`code inside our `<head>` tags and then add one final `<div>` just above our main Carousel code in the `<body>`.
+
+   Add the following code inside your `<head>` tags.
+
+   ````html
+   <style>
+    /* Custom style for limiting carousel width */
+    .custom-carousel-container {
+      width: 70%;
+      margin: 0 auto; /* Center the container */
+    }
+  </style>
+   ````
+4. Now add this line of code at the top of the **Photo Carousel** `<div>`.
+
+````html
+<!-- Carousel with limited width -->
+<div class="custom-carousel-container">
+````
+
+💡**Remember:** We then need to close this at the end of the code block using a `</div>` tag.
+
+Now our Photo Carousel should take up ``70%`` of our screen. Experiment with these values to see which setting you prefer.
