@@ -38,8 +38,10 @@ Working together with your classmates, I want you to try to complete the followi
 You must include _**comments**_ with your code, explaining what each section `<div>` does.
 
 
-### Task 1 - 
-Type up the following code to create **Bootsrap Cards**. These can be used in your ISS - Website to display information about current / past crew members. 
+### Task 1 - Bootstrap Cards
+Type up the following code to create Bootsrap Cards. 
+
+These can be used in your _ISS - Website_ to display information about current / past crew members. 
 
 ````html
 <!-- Crew Section with Bootstrap Cards -->
