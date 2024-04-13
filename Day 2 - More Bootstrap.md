@@ -30,3 +30,13 @@ Next, you need to add this line of code just above your closing body tag `</body
 <!-- Bootstrap Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 ````
+
+## Challenges ⚔️
+Working together with your classmates, I want you to try to complete the following challenges. Where possible, type up the code yourself, don't just copy and paste it into your editor.
+
+### 💡Note: 
+You must include _**comments**_ with your code, explaining what each section `<div>` does.
+
+
+### Task 1 - 
+Type up the following code to
