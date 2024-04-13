@@ -274,6 +274,7 @@ The following example shows how to create a basic carousel with indicators and c
 1. Add the following code inside your `<body>` tags, try to pick a suitable place that will make the webpage look good.😎
 
 ````html
+<!--Photo Carousel-->
 <h3>Carousel Example</h3>
 <p>The following example shows how to create a basic carousel with indicators and controls.</p>
 
@@ -316,17 +317,16 @@ The following example shows how to create a basic carousel with indicators and c
    Add the following code inside your `<head>` tags.
 
 ````html
-
-   <style>
+<style>
     /* Custom style for limiting carousel width */
     .custom-carousel-container {
-      width: 70%;
+      width: 80%;
       margin: 0 auto; /* Center the container */
     }
-  </style>
+</style>
 
 ````
-4. Now add this line of code at the top of the **Photo Carousel** `<div>`.
+4. Now add this line of code above the **Photo Carousel** comment ``<!--Photo Carousel-->``.
 
 ````html
 <!-- Carousel with limited width -->
