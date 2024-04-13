@@ -96,10 +96,10 @@ Type up the following code to create a timeline card, which could be used to dis
   </div>
 ````
 #### Modals
-Let's add a litte more style to our cards using a **Modal Windows**.
+Let's add a little more style to our cards using a **Modal Windows**.
 
 - A _modal window_ is a graphical control element subordinate to an application's main window. 
-- A modal window creates a mode that disables user interaction with the main window but keeps it visible, with the modal window as a child window in front of it.
+- A _modal window_ creates a mode that disables user interaction with the main window but keeps it visible, with the modal window as a child window in front of it.
 
 ````html
 <!-- Modals for more Detailed Information -->
@@ -121,7 +121,7 @@ Let's add a litte more style to our cards using a **Modal Windows**.
 ### Task 3 - Alerts
 Now let's see if we can add a little more interaction to our page using alert boxes.
 
-Type up the following code to create a **success** alert box.
+Type up the following code to create a **Success** alert box.
 ````html
     <div class="container mt-3">
     <h2>Alerts</h2>
@@ -136,7 +136,7 @@ Type up the following code to create a **success** alert box.
 
 Now using the sample code shown below, create some more alert boxes, can you spot how the colour of the alerts changes??
 
-Info Alert
+**Info Alert**
 ````html
     <div class="alert alert-info alert-dismissible">
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
@@ -144,7 +144,7 @@ Info Alert
     </div>
 ````
 
-Warning Alert
+**Warning Alert**
 ````html
     <div class="alert alert-warning alert-dismissible">
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
@@ -152,7 +152,7 @@ Warning Alert
     </div>
 ````
 
-Danger Alert 
+**Danger Alert**
 ````html
     <div class="alert alert-danger alert-dismissible">
       <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
