@@ -6,9 +6,46 @@
 
 Building on the Bootstrap skills you have learned, you are asked to create a Bootstrap webpage about the ISS (International Space Station) and your Astro Pi - Mission Zero project.
 
+### Getting started 👨🏽‍💻
+1. I want you to click into [Trinket](https://trinket.io/).
+2. Now click on the blue button, select **HTML** and create a new file called **Day 3 - ISS Webpage**.
+
+Now we need to add our boiler plate code again, just like last week.
+
+### How Do You Use Bootstrap?
+To use Bootstrap, you include its `CSS` and `JavaScript` files in your HTML document. 
+
+- Remember to add these lines of code inside your `<head>` tags.
+- This gives you access to all the pre-made styles and interactive features.
+
+````html
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISS Website</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- Include Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+````
+
+Next, you need to add this line of code just above your closing body tag `</body>`.
+
+````html
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+````
+
+
+## Assignment ⚔️
 You can use some / all of the suggestions below to create your webpage.
 
-However, your webpage must have teh following **3 sections**:
+However, your webpage must have the following **3 sections**:
 
 1. Information Hub
 2. Timeline: Chronological Information Display
