@@ -15,20 +15,25 @@ Now we need to add our boiler plate code again, just like last week.
 ### How Do You Use Bootstrap?
 To use Bootstrap, you include its `CSS` and `JavaScript` files in your HTML document. 
 
-- Remember to add these lines of code inside your `<head>` tags.
+- Remember to add these lines of code beneath your ``<!DOCTYPE html>`` tag.
 - This gives you access to all the pre-made styles and interactive features.
 
 ````html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISS Website</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ISS Website</title>
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- Include Bootstrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 ````
 
 Next, you need to add this line of code just above your closing body tag `</body>`.
