@@ -94,7 +94,7 @@ These can be used in your _ISS - Website_ to display information about current /
 
     <div class="col-md-4">
       <div class="card">
-        <img src="crew_member1.jpg" class="card-img-top" alt="Crew Member 1">
+        <img src="crew_member1.jpg" class="card-img-top" alt="Crew Member 2">
         <div class="card-body">
           <h5 class="card-title">Buzz Aldrin </h5>
           <p class="card-text">Mission Specialist</p>
