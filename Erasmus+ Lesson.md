@@ -235,7 +235,7 @@ Cards are flexible containers for displaying content. Add this to your page:
 
 💡**Please Note:** Replace the `"image link goes here"` with actual photos from your visit.
 
-## 5. Modal Windows
+## 5. Modal Windows 🪟
 
 Modals are popup dialogs that can display additional information. 
 
@@ -370,7 +370,7 @@ Add this before the closing `</body>` tag on each page:
 ```
 
 # Extra Credit (Optional) ✨
-## Custom CSS 
+## Custom CSS 🎨
 
 Create a file named `style.css` for additional customization:
 
@@ -403,11 +403,10 @@ body {
 
 ## Further Challenges for Students ⚔️
 
-1. Add a contact form to the website
-2. Create a timeline of events using Bootstrap components
-3. Add a map showing locations visited in Galway
-4. Implement a language switcher between English and Czech
-5. Add animated counters showing statistics about the exchange
+1. 📝Add a contact form to the website 
+2. ⏱️Create a timeline of events using Bootstrap components
+3. 📌Add a map showing locations visited in Galway
+4. 🗣️Implement a language switcher between English and Czech
 
 
 ## Resources 🔗
