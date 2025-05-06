@@ -414,4 +414,4 @@ body {
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
 - [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
-- [Font Awesome Icons](https://fontawesome.com/) (optional for adding icons)
+
