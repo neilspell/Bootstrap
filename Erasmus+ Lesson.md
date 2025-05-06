@@ -1,8 +1,14 @@
+# Welcome to Erasmus+ Student Mobility - 2025
+![image](https://github.com/user-attachments/assets/6a52fa1a-fa86-407b-bd54-a9efcf199472)
+
+
 # Bootstrap & HTML/CSS Lesson Template
+![image](https://github.com/user-attachments/assets/92455cf4-f9fe-46a2-8d00-ba4779a91b79)
+
 
 ## Introduction
 
-Welcome to our web development workshop! In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. You'll learn how to use HTML, CSS, and Bootstrap to create responsive, attractive web pages with various interactive elements.
+Welcome to our web development workshop! In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. You'll learn how to use _HTML, CSS,_ and _Bootstrap_ to create responsive, attractive web pages with various interactive elements.
 
 ## Project Overview
 
@@ -11,7 +17,7 @@ You will create a small website with **3 pages**:
 2. **Gallery** - Photos from the visit
 3. **Experiences** - Stories and highlights
 
-## Setup 🛠️
+# Setup 🛠️
 - We are going to use `trinket.io` to build our webpage.
 
 ![image](https://github.com/user-attachments/assets/fe4229be-dbd9-4710-87c6-958d04837248)
@@ -61,7 +67,17 @@ Click on _"New Tinket"_ and select `HTML`
 </body>
 ```
 
-## 1. Navigation Bar
+## Questions to make you think 🤔 ?
+1. What does your webpage look like?
+2. How does your new webpage compare to other websites you use?
+
+## ✍ Task:
+- With your partner, I want you to discuss ``5 things`` that a good webpage should have.
+
+---
+
+
+## 1. Navigation Bar 🧭
 
 A navigation bar (navbar) helps users navigate between pages. Add this code after the opening `<body>` tag in each HTML file:
 
@@ -94,7 +110,7 @@ A navigation bar (navbar) helps users navigate between pages. Add this code afte
 - It collapses into a hamburger menu on smaller screens
 - The active page can be highlighted by adding `active` class to the corresponding nav-item
 
-## 2. Jumbotron (Hero Section)
+## 2. Jumbotron 
 
 A jumbotron is a large banner section that grabs attention. While Bootstrap 5 no longer has a specific "jumbotron" component, we can create one using other Bootstrap classes:
 
@@ -112,7 +128,23 @@ A jumbotron is a large banner section that grabs attention. While Bootstrap 5 no
 
 ## 3. Bootstrap Grid System and Spans
 
-Bootstrap's grid system divides the screen into 12 columns, allowing for responsive layouts. Columns are defined within rows, and you specify how many columns each element should span.
+Bootstrap's grid system divides the screen into **12 columns**, allowing for responsive layouts. 
+
+Next we are going to create columns of text across our webpage: 
+
+- Columns are defined within rows, and you specify how many columns each element should span.
+- Bootstrap's grid system allows up to 12 columns across the page.
+- If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:
+  
+![image](https://github.com/ross-bish/Bootstrap/assets/83789503/7dab612e-d402-4696-ae0e-0285b8c8e077)
+
+
+Since Bootstrap uses 12 columns across the page, to make 3 equal columns, we must make each section 4 columns wide.
+
+- Please take your time typing this up.
+- Try to use the <kbd>tab</kbd> button to format your code.
+- Remember to add _**comments**_ to explain what your code does.
+
 
 ```html
 <div class="container mt-4">
@@ -138,14 +170,14 @@ Bootstrap's grid system divides the screen into 12 columns, allowing for respons
 ```
 
 **Explanation of Bootstrap Spans:**
-- `col-md-4` means "on medium screens and larger, span 4 out of 12 columns"
+- `col-md-4` means _"on medium screens and larger, span 4 out of 12 columns"_
 - Common prefixes:
   - `col-` (extra small screens, <576px)
   - `col-sm-` (small screens, ≥576px)
   - `col-md-` (medium screens, ≥768px)
   - `col-lg-` (large screens, ≥992px)
   - `col-xl-` (extra large screens, ≥1200px)
-- Example: `col-sm-6 col-md-4` means "span 6 columns on small screens, but 4 columns on medium screens and up"
+- Example: `col-sm-6 col-md-4` means _"span 6 columns on small screens, but 4 columns on medium screens and up"_
 
 ## 4. Bootstrap Cards
 
