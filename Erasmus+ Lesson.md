@@ -213,21 +213,21 @@ A carousel is a slideshow for cycling through images. Add this to your Gallery p
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Placeholder Image 1">
+        <img src="image link goes here" class="d-block w-100" alt="Placeholder Image 1">
         <div class="carousel-caption d-none d-md-block">
           <h5>Galway Bay</h5>
           <p>Beautiful views of Galway Bay during our boat trip.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Placeholder Image 2">
+        <img src="image link goes here" class="d-block w-100" alt="Placeholder Image 2">
         <div class="carousel-caption d-none d-md-block">
           <h5>Traditional Music Session</h5>
           <p>Enjoying traditional Irish music in a local pub.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Placeholder Image 3">
+        <img src="image link goes here" class="d-block w-100" alt="Placeholder Image 3">
         <div class="carousel-caption d-none d-md-block">
           <h5>Classroom Activities</h5>
           <p>Working together on collaborative projects.</p>
