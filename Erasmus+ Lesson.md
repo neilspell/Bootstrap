@@ -136,8 +136,8 @@ Cards are flexible containers for displaying content. Add this to your page:
       <div class="card">
         <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Placeholder Image">
         <div class="card-body">
-          <h5 class="card-title">Cliffs of Moher</h5>
-          <p class="card-text">Our amazing trip to see the spectacular Cliffs of Moher on the west coast of Ireland.</p>
+          <h5 class="card-title">Aran Islands</h5>
+          <p class="card-text">Our amazing trip to see the spectacular Aran Islands on the west coast of Ireland.</p>
           <a href="#" class="btn btn-primary">View Details</a>
         </div>
       </div>
