@@ -11,15 +11,35 @@ You will create a small website with **3 pages**:
 2. **Gallery** - Photos from the visit
 3. **Experiences** - Stories and highlights
 
-## Setup
+## Setup 🛠️
+- We are going to use `trinket.io` to build our webpage.
 
-1. Create a folder for your project
-2. Create three HTML files: `index.html`, `gallery.html`, and `experiences.html`
-3. Link Bootstrap to your HTML by adding this to the `<head>` of each file:
+![image](https://github.com/user-attachments/assets/fe4229be-dbd9-4710-87c6-958d04837248)
+
+Click on _"New Tinket"_ and select `HTML`
+
+![image](https://github.com/user-attachments/assets/2a977e32-07e7-49a6-886e-1df1bc90a902)
+
+1. Type the lines of code below into `index.html`, be careful of spelling mistakes and any *"syntax"* errors.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
+
+<body>
+    <!-- Main content goes here -->
+
+
+</body>
+</html>
+
+```
+
+2. Create three HTML files: `index.html`, `gallery.html`, and `experiences.html`
+3. Link Bootstrap to your HTML by adding this to the `<head>` of each file: 
+
+```html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,13 +49,16 @@ You will create a small website with **3 pages**:
     <!-- Optional custom CSS file -->
     <link href="style.css" rel="stylesheet">
 </head>
+```
+4. Now add this code above the `</body>` tag as shown below:
+
+```html
 <body>
     <!-- Content goes here -->
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
 ```
 
 ## 1. Navigation Bar
