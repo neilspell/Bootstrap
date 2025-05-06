@@ -2,13 +2,15 @@
 ![image](https://github.com/user-attachments/assets/6a52fa1a-fa86-407b-bd54-a9efcf199472)
 
 
-# Bootstrap & HTML/CSS Lesson Template
+# Erasmus+ Website - Using Bootstrap, HTML & CSS
 ![image](https://github.com/user-attachments/assets/92455cf4-f9fe-46a2-8d00-ba4779a91b79)
 
 
 ## Introduction
 
-Welcome to our web development workshop! In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. You'll learn how to use _HTML, CSS,_ and _Bootstrap_ to create responsive, attractive web pages with various interactive elements.
+Welcome to our web development workshop! 
+
+In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. You'll learn how to use _HTML, CSS,_ and _Bootstrap_ to create responsive, attractive web pages with various interactive elements.
 
 ## Project Overview
 
@@ -106,9 +108,9 @@ A navigation bar (navbar) helps users navigate between pages. Add this code afte
 ```
 
 **Explanation:**
-- The navbar uses Bootstrap classes for styling and responsiveness
-- It collapses into a hamburger menu on smaller screens
-- The active page can be highlighted by adding `active` class to the corresponding nav-item
+- The navbar uses Bootstrap classes for styling and responsiveness.
+- It collapses into a hamburger menu on smaller screens.
+- The active page can be highlighted by adding `active` class to the corresponding nav-item.
 
 ## 2. Jumbotron 
 
@@ -126,7 +128,7 @@ A jumbotron is a large banner section that grabs attention. While Bootstrap 5 no
 </div>
 ```
 
-## 3. Bootstrap Grid System and Spans
+## 3. Bootstrap Grid System and Spans 🏛️
 
 Bootstrap's grid system divides the screen into **12 columns**, allowing for responsive layouts. 
 
