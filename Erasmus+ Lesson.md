@@ -282,17 +282,17 @@ Add this before the closing `</body>` tag on each page:
     <div class="row">
       <div class="col-md-6">
         <h5>Erasmus+ Exchange Program</h5>
-        <p>A collaboration between schools in the Czech Republic and Ireland.</p>
+        <p>A collaboration between Hello Skola in Ostrava (Czech Republic) and St Joseph's College 'The Bish' in Galway (Ireland).</p>
       </div>
       <div class="col-md-6 text-md-end">
         <h5>Contact</h5>
         <p>Email: exchange@school.edu<br>
-        Phone: +353 1 234 5678</p>
+        Phone: +353 1 11 11111</p>
       </div>
     </div>
     <div class="row">
       <div class="col text-center mt-3">
-        <p>&copy; 2025 Student Exchange Project</p>
+        <p>&copy; 2025 Erasmus+ Student Exchange Project</p>
       </div>
     </div>
   </div>
