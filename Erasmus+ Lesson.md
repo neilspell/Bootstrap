@@ -189,7 +189,7 @@ Cards are flexible containers for displaying content. Add this to your page:
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Placeholder Image">
+        <img src="image link goes here" class="card-img-top" alt="Placeholder Image">
         <div class="card-body">
           <h5 class="card-title">Aran Islands</h5>
           <p class="card-text">Our amazing trip to see the spectacular Aran Islands on the west coast of Ireland.</p>
@@ -200,7 +200,7 @@ Cards are flexible containers for displaying content. Add this to your page:
     
     <div class="col-md-4 mb-4">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Placeholder Image">
+        <img src="image link goes here" class="card-img-top" alt="Placeholder Image">
         <div class="card-body">
           <h5 class="card-title">Galway City</h5>
           <p class="card-text">Exploring the vibrant streets and culture of Galway city center.</p>
@@ -211,7 +211,7 @@ Cards are flexible containers for displaying content. Add this to your page:
     
     <div class="col-md-4 mb-4">
       <div class="card">
-        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Placeholder Image">
+        <img src="image link goes here" class="card-img-top" alt="Placeholder Image">
         <div class="card-body">
           <h5 class="card-title">School Activities</h5>
           <p class="card-text">Collaborative projects and activities at the host school.</p>
@@ -223,11 +223,16 @@ Cards are flexible containers for displaying content. Add this to your page:
 </div>
 ```
 
-**Note:** Replace the placeholder images with actual photos from your visit.
+💡**Please Note:** Replace the `"image link goes here"` with actual photos from your visit.
 
 ## 5. Modal Windows
 
-Modals are popup dialogs that can display additional information. Add this code before the closing `</body>` tag:
+Modals are popup dialogs that can display additional information. 
+
+- A _modal window_ is a graphical control element subordinate to an application's main window. 
+- A _modal window_ creates a mode that disables user interaction with the main window but keeps it visible, with the modal window as a child window in front of it.
+
+Add this code before the closing `</body>` tag:
 
 ```html
 <!-- Modal -->
@@ -251,11 +256,11 @@ Modals are popup dialogs that can display additional information. Add this code 
 </div>
 ```
 
-**To trigger the modal:** Use a button with `data-bs-toggle="modal" data-bs-target="#welcomeModal"` as shown in the jumbotron section.
+💡**To trigger the modal:** Use a button with `data-bs-toggle="modal" data-bs-target="#welcomeModal"` as shown in the jumbotron section.
 
-## 6. Photo Carousel
+## 6. Photo Carousel 📸
 
-A carousel is a slideshow for cycling through images. Add this to your Gallery page:
+A carousel is a slideshow for cycling through images. Add this to your `gallery.html` page:
 
 ```html
 <div class="container mt-4">
@@ -301,9 +306,9 @@ A carousel is a slideshow for cycling through images. Add this to your Gallery p
 </div>
 ```
 
-**Note:** Replace the placeholder images with your actual photos.
+💡**Please Note:** Replace the `"image link goes here"` with your actual photos.
 
-## 7. Multiple Pages
+## 7. Multiple Pages 📚
 
 Create separate HTML files for each page with similar structure:
 
@@ -354,7 +359,8 @@ Add this before the closing `</body>` tag on each page:
 </footer>
 ```
 
-## Custom CSS (Optional)
+# Extra Credit (Optional) ✨
+## Custom CSS 
 
 Create a file named `style.css` for additional customization:
 
@@ -385,7 +391,7 @@ body {
 }
 ```
 
-## Challenge Tasks for Students
+## Challenge Tasks for Students ⚔️
 
 1. Add a contact form to the website
 2. Create a timeline of events using Bootstrap components
@@ -393,15 +399,8 @@ body {
 4. Implement a language switcher between English and Czech
 5. Add animated counters showing statistics about the exchange
 
-## Tips for Success
 
-1. Start with the basic structure of all three pages
-2. Use placeholder images until you have your own photos
-3. Test your website on different devices to ensure it's responsive
-4. Collaborate by dividing tasks between partners
-5. Be creative with content and design!
-
-## Resources
+## Resources 🔗
 
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
