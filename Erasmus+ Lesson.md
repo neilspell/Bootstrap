@@ -184,8 +184,8 @@ Modals are popup dialogs that can display additional information. Add this code 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>This exchange program between Czech Republic and Ireland is part of the Erasmus+ initiative, promoting cultural exchange and international cooperation in education.</p>
-        <p>During this two-week visit, students are collaborating on projects, exploring Irish culture, and forming lasting friendships.</p>
+        <p>This exchange program between Ostrava (Czech Republic) and Galway (Ireland) is part of the Erasmus+ initiative, promoting cultural exchange and international cooperation in education.</p>
+        <p>During this 4 day visit, students are collaborating on projects, exploring Irish culture, and forming lasting friendships.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
