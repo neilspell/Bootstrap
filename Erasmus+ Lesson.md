@@ -10,7 +10,9 @@
 
 Welcome to our web development workshop! 
 
-In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. You'll learn how to use _HTML, CSS,_ and _Bootstrap_ to create responsive, attractive web pages with various interactive elements.
+In this lesson, you'll work in pairs (Czech and Irish students) to create a webpage documenting the Czech students' stay in Galway. 
+
+You'll learn how to use _HTML, CSS,_ and _Bootstrap_ to create responsive, attractive web pages with various interactive elements.
 
 ## Project Overview
 
