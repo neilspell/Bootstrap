@@ -1,8 +1,8 @@
-# Welcome to Erasmus+ Student Mobility - 2025
+# Welcome to our Erasmus+ Student Mobility Project - 2025
 ![image](https://github.com/user-attachments/assets/6a52fa1a-fa86-407b-bd54-a9efcf199472)
 
 
-# Erasmus+ Website - Using Bootstrap, HTML & CSS
+# Design an Erasmus+ Website: Using Bootstrap, HTML & CSS
 ![image](https://github.com/user-attachments/assets/92455cf4-f9fe-46a2-8d00-ba4779a91b79)
 
 
@@ -74,7 +74,13 @@ Click on _"New Tinket"_ and select `HTML`
 2. How does your new webpage compare to other websites you use?
 
 ## ✍ Task:
-- With your partner, I want you to discuss ``5 things`` that a good webpage should have.
+With your partner, I want you to discuss **5 things** that a good webpage should have.
+1. __________
+2. __________
+3. __________
+4. __________
+5. __________
+
 
 ---
 
@@ -107,7 +113,7 @@ A navigation bar (navbar) helps users navigate between pages. Add this code afte
 </nav>
 ```
 
-**Explanation:**
+**📝 Explanation:**
 - The navbar uses Bootstrap classes for styling and responsiveness.
 - It collapses into a hamburger menu on smaller screens.
 - The active page can be highlighted by adding `active` class to the corresponding nav-item.
@@ -171,7 +177,7 @@ Since Bootstrap uses 12 columns across the page, to make 3 equal columns, we mus
 </div>
 ```
 
-**Explanation of Bootstrap Spans:**
+**📝 Explanation of Bootstrap Spans:**
 - `col-md-4` means _"on medium screens and larger, span 4 out of 12 columns"_
 - Common prefixes:
   - `col-` (extra small screens, <576px)
@@ -314,7 +320,7 @@ A carousel is a slideshow for cycling through images. Add this to your `gallery.
 
 Create separate HTML files for each page with similar structure:
 
-### index.html (Home Page)
+### ``index.html`` (Home Page)
 Contains:
 - Navigation bar
 - Jumbotron
@@ -322,13 +328,13 @@ Contains:
 - Cards with highlights
 - Modal window
 
-### gallery.html (Gallery Page)
+### ``gallery.html`` (Gallery Page)
 Contains:
 - Navigation bar
 - Photo carousel
 - Additional photo grid (optional)
 
-### experiences.html (Experiences Page)
+### ``experiences.html`` (Experiences Page)
 Contains:
 - Navigation bar
 - Student testimonials/stories
@@ -393,7 +399,7 @@ body {
 }
 ```
 
-## Challenge Tasks for Students ⚔️
+## Further Challenges for Students ⚔️
 
 1. Add a contact form to the website
 2. Create a timeline of events using Bootstrap components
