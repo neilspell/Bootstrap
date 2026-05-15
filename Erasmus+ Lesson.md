@@ -1,4 +1,4 @@
-# Welcome to our Erasmus+ Student Mobility Project - 2025
+# Welcome to our Erasmus+ Student Mobility Project - 2026
 ![image](https://github.com/user-attachments/assets/6a52fa1a-fa86-407b-bd54-a9efcf199472)
 
 
